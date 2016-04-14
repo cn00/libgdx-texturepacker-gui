@@ -64,7 +64,7 @@ public class PackDialog extends javax.swing.JDialog {
 					TexturePacker2.process(pack.getSettings(), pack.getInput(), pack.getOutput(), pack.getFilename());
 					System.out.println("Done!");
 				} catch (RuntimeException ex) {
-					System.err.println("[error] Exception occured: " + ex.getMessage());
+					System.err.println("[error] Exception occurred: " + ex.getMessage());
 				}
 			}
 
@@ -113,7 +113,7 @@ public class PackDialog extends javax.swing.JDialog {
 						TexturePacker2.process(pack.getSettings(), pack.getInput(), pack.getOutput(), pack.getFilename());
 						System.out.println("Done!");
 					} catch (RuntimeException ex) {
-						System.err.println("[error] Exception occured: " + ex.getMessage());
+						System.err.println("[error] Exception occurred: " + ex.getMessage());
 					}
 				}
 
